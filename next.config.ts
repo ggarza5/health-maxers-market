@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
     domains: [
       'images.unsplash.com',
       'cdn.prod.website-files.com',
-      'rootfunctionalmedicine.com'
+      'rootfunctionalmedicine.com',
+      'stellamentalhealth.com'
     ],
   },
 };
