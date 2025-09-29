@@ -1,24 +1,40 @@
 import Link from "next/link";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { Button } from "@/components/ui/button";
 
 export function Header() {
   return (
-    <header className="border-b border-border bg-background/80 backdrop-blur-sm sticky top-0 z-50">
+    <header className="border-b border-border/40 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
-                <div className="w-6 h-6 bg-background rounded-sm flex items-center justify-center">
-                  <div className="w-3 h-3 bg-gradient-to-br from-blue-600 to-green-600 rounded-full"></div>
-                </div>
-              </div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-                Health Maxers Market
-              </h1>
-            </div>
+            <h1 className="text-2xl font-bold">
+              <span className="text-cyan-600">Max</span>
+              <span className="text-slate-900 dark:text-white">Health</span>
+            </h1>
           </Link>
-          <ThemeToggle />
+
+          <nav className="hidden md:flex items-center gap-8">
+            <Link href="/about" className="text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              About
+            </Link>
+            <Link href="/partners" className="text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              Partners
+            </Link>
+            <Link href="/resources" className="text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              Resources
+            </Link>
+            <Link href="/contact" className="text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              Contact
+            </Link>
+          </nav>
+
+          <div className="flex items-center gap-4">
+            <Button variant="outline" className="hidden md:inline-flex">
+              Join our newsletter
+            </Button>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </header>
