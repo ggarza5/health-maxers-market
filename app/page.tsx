@@ -75,11 +75,25 @@ export default function Home() {
 
       {/* Decorative pink blob between sections */}
       <div className="container mx-auto px-4 flex justify-center -my-8 relative z-10">
-        <img
-          src="https://s3-alpha-sig.figma.com/img/8d02/5e5e/a23582d59e021112f8fb25d00928f838?Expires=1760313600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AVyxQP5njPtdRqkjGDbV0guOfwGqbwAmfJeTaSHWJj29GWZEojohNyb3CSt6le3VgOIjCHp~HExX-Eh87m2xy6zT7U2dVndmhFlYxvWM2n7~xRd6h~xYEclGOt2ywX~Ir6f3rKGC6wwgKBQ2-ci5zrOVMr0aliCNVXCDpVE5vOt4TehvXCpdytC6-oKyW3sHnMBNBVBpdjywRzt~jOG8goO3Odo8vb0Ijdv4W9FHU4cWhhAx-kjr29hhSh37w-NJ2xsXUT6dgXobGkWf7ShuI7Ah3BcAyvtmR-jr~Gd-t3GEf6mFHs7meYpzl8AopwOC2L0sETv4o6x14clreNu1VA__"
-          alt=""
+        <div
           className="w-24 h-28 opacity-60"
-        />
+          style={{
+            maskImage: `url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/mcp/get_code/assets/cad175f7-c756-4d89-bfbe-01287db707f5/figma%3Aasset/bcb8877cc234834dec5d58dab66addd3b9828c9b.svg?AWSAccessKeyId=ASIAQ4GOSFWCWUEFAGCY&Expires=1759191378&Signature=AlvrJzV9BSitRfL2R8d6AbdIozo%3D&response-expires=Tue%2C%2014%20Oct%202025%2000%3A01%3A18%20GMT&x-amz-security-token=IQoJb3JpZ2luX2VjEFgaCXVzLXdlc3QtMiJHMEUCIQC29RSQ6g%2FTHLDM6326X4xAK93HlkMWCZ2oHPH8pWSAoQIgcQbXFPTRw3snrKnVZaWVlKqecUVAjqadcQiYhfDGij4qkAUI4f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwNjA1NjI3NDY3NTciDBYzYmG3F6LwXvLEGyrkBI%2FuHn%2B6Gib0CVMSGSdKUAT92REmHH0idwMn8FTXdTBXn2EALR1zd7KWx6hPcRf9viOJtrHesyAXNT0wDtHwseTxiN%2B%2BX8G0zJe6PPorqthAwy47qBsKO9X%2Fyw0kkfBCeTEmQXZ1W2QprLqk36lkaM5A2zuEi%2FCdRNKXLfYNwR%2Fpkk8EvaEOVvr7MmFjGdogGmWIyuIxz3mQYqfyRPuOcAmWNtGwDbVMIidoKIlA%2BHEwr%2FgvflHJFv%2FQg3dxQkG%2Fi6GCaic6IR5fLUHZk7vcQzcoRqdinviDDAsgFBiWjgGUgbVGuAs1yrWL6r8oNk9shyBeae5Q7jZHKEXXV9VwQo8o4EW62UtHcx795OR61Gs1MzGtYu7%2BGULpCXD2xYOqlVdbmQ0XcsG7lrpIMoPogJyjq6hH18mH6o9OX1FZ%2FiNE1jbEVeN0%2FEmLjgS2mUbZPUruJsvBOGSTs0Rtq9Uc%2BOzwTOKGNjpzWQQXM3pSxaP57l582Uxn8i%2FJheO2ZM%2BU%2FyjV1hlgZ3fazsCLg%2BrhztESOxPp6WCW%2B5kK0wiJzpR%2FqjYt026b%2BWke8Eye5ABCxfKjHHNwZDbI9MGcxxv9ldk7weSD%2B%2BYrht8nIgS9GQmnsVm3jnZKG3nt0jUW0JLalPeW7RvFZMAI4NG7bH24dzJuIY7xqpwZ%2BmVE9XGgy%2Bw1gI86y0syrHJeve4Osz7ue393Ruhjnq8KRpDvyJwdwE9T3ggoimxUnlvS9dAKvYTRvdWag6ckAJj8DYH1sLJvExpvPlG7aHWbZ76VBDeClfzohNHHNsL%2BFFCp7TYHpjkIdObRezDLsOzGBjqbActCym0mw3Uwcg9EdEBzzp%2B8BdEP0bYsx3GagXH2eqisiyBIWzZsSkZn55vUA13OqLRArm3UidPBIrz1q2PuSJ9K83BB7V8ROyvPAL98I6Qgd1m7B%2BI8niAJf6ySBU0VuplcUr7TduUQeDQ4HPEDB0RL62q43kelI%2FuYwhOCRoIX3F00foDDj1%2Bw3FCZ5HaaVbBqLQLq%2BNmnyiR%2F')`,
+            maskRepeat: 'no-repeat',
+            maskPosition: 'center',
+            maskSize: 'contain',
+            WebkitMaskImage: `url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/mcp/get_code/assets/cad175f7-c756-4d89-bfbe-01287db707f5/figma%3Aasset/bcb8877cc234834dec5d58dab66addd3b9828c9b.svg?AWSAccessKeyId=ASIAQ4GOSFWCWUEFAGCY&Expires=1759191378&Signature=AlvrJzV9BSitRfL2R8d6AbdIozo%3D&response-expires=Tue%2C%2014%20Oct%202025%2000%3A01%3A18%20GMT&x-amz-security-token=IQoJb3JpZ2luX2VjEFgaCXVzLXdlc3QtMiJHMEUCIQC29RSQ6g%2FTHLDM6326X4xAK93HlkMWCZ2oHPH8pWSAoQIgcQbXFPTRw3snrKnVZaWVlKqecUVAjqadcQiYhfDGij4qkAUI4f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwNjA1NjI3NDY3NTciDBYzYmG3F6LwXvLEGyrkBI%2FuHn%2B6Gib0CVMSGSdKUAT92REmHH0idwMn8FTXdTBXn2EALR1zd7KWx6hPcRf9viOJtrHesyAXNT0wDtHwseTxiN%2B%2BX8G0zJe6PPorqthAwy47qBsKO9X%2Fyw0kkfBCeTEmQXZ1W2QprLqk36lkaM5A2zuEi%2FCdRNKXLfYNwR%2Fpkk8EvaEOVvr7MmFjGdogGmWIyuIxz3mQYqfyRPuOcAmWNtGwDbVMIidoKIlA%2BHEwr%2FgvflHJFv%2FQg3dxQkG%2Fi6GCaic6IR5fLUHZk7vcQzcoRqdinviDDAsgFBiWjgGUgbVGuAs1yrWL6r8oNk9shyBeae5Q7jZHKEXXV9VwQo8o4EW62UtHcx795OR61Gs1MzGtYu7%2BGULpCXD2xYOqlVdbmQ0XcsG7lrpIMoPogJyjq6hH18mH6o9OX1FZ%2FiNE1jbEVeN0%2FEmLjgS2mUbZPUruJsvBOGSTs0Rtq9Uc%2BOzwTOKGNjpzWQQXM3pSxaP57l582Uxn8i%2FJheO2ZM%2BU%2FyjV1hlgZ3fazsCLg%2BrhztESOxPp6WCW%2B5kK0wiJzpR%2FqjYt026b%2BWke8Eye5ABCxfKjHHNwZDbI9MGcxxv9ldk7weSD%2B%2BYrht8nIgS9GQmnsVm3jnZKG3nt0jUW0JLalPeW7RvFZMAI4NG7bH24dzJuIY7xqpwZ%2BmVE9XGgy%2Bw1gI86y0syrHJeve4Osz7ue393Ruhjnq8KRpDvyJwdwE9T3ggoimxUnlvS9dAKvYTRvdWag6ckAJj8DYH1sLJvExpvPlG7aHWbZ76VBDeClfzohNHHNsL%2BFFCp7TYHpjkIdObRezDLsOzGBjqbActCym0mw3Uwcg9EdEBzzp%2B8BdEP0bYsx3GagXH2eqisiyBIWzZsSkZn55vUA13OqLRArm3UidPBIrz1q2PuSJ9K83BB7V8ROyvPAL98I6Qgd1m7B%2BI8niAJf6ySBU0VuplcUr7TduUQeDQ4HPEDB0RL62q43kelI%2FuYwhOCRoIX3F00foDDj1%2Bw3FCZ5HaaVbBqLQLq%2BNmnyiR%2F')`,
+            WebkitMaskRepeat: 'no-repeat',
+            WebkitMaskPosition: 'center',
+            WebkitMaskSize: 'contain',
+          }}
+        >
+          <img
+            src="https://s3-alpha-sig.figma.com/img/8d02/5e5e/a23582d59e021112f8fb25d00928f838?Expires=1760313600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AVyxQP5njPtdRqkjGDbV0guOfwGqbwAmfJeTaSHWJj29GWZEojohNyb3CSt6le3VgOIjCHp~HExX-Eh87m2xy6zT7U2dVndmhFlYxvWM2n7~xRd6h~xYEclGOt2ywX~Ir6f3rKGC6wwgKBQ2-ci5zrOVMr0aliCNVXCDpVE5vOt4TehvXCpdytC6-oKyW3sHnMBNBVBpdjywRzt~jOG8goO3Odo8vb0Ijdv4W9FHU4cWhhAx-kjr29hhSh37w-NJ2xsXUT6dgXobGkWf7ShuI7Ah3BcAyvtmR-jr~Gd-t3GEf6mFHs7meYpzl8AopwOC2L0sETv4o6x14clreNu1VA__"
+            alt=""
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
 
       {/* Trusted Brands */}
@@ -237,13 +251,13 @@ export default function Home() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="container mx-auto px-4 py-16">
-        <div className="max-w-5xl mx-auto bg-[#714cfe] rounded-[30px] p-12 md:p-16 flex flex-col md:flex-row items-center justify-between gap-8">
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-6xl mx-auto bg-[#714cfe] rounded-[40px] p-16 md:p-20 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="text-white flex-1">
-            <h2 className="text-4xl md:text-5xl font-bold mb-2 leading-tight">Join our newsletter</h2>
-            <p className="text-xl md:text-3xl opacity-60 leading-tight">Get more access, discounts & health tips</p>
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 leading-tight">Join our newsletter</h2>
+            <p className="text-2xl md:text-4xl opacity-60 leading-tight">Get more access, discounts & health tips</p>
           </div>
-          <div className="flex flex-col gap-4 w-full md:w-auto md:min-w-[427px]">
+          <div className="flex flex-col gap-4 w-full md:w-auto md:min-w-[450px]">
             <Input
               placeholder="Enter your email"
               className="h-[68px] bg-white text-[#666f73] border-0 rounded-[60px] px-6 text-lg"
@@ -256,22 +270,22 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="container mx-auto px-4 py-16 mb-12">
-        <div className="max-w-2xl mx-auto bg-gradient-to-br from-purple-200 to-blue-200 dark:from-purple-900/40 dark:to-blue-900/40 rounded-3xl p-12 text-center relative overflow-hidden">
-          <h2 className="text-4xl font-bold mb-4 text-slate-900 dark:text-white relative z-10">
+      <section className="container mx-auto px-4 py-20 mb-16">
+        <div className="max-w-6xl mx-auto bg-gradient-to-br from-purple-200 to-blue-200 dark:from-purple-900/40 dark:to-blue-900/40 rounded-[40px] p-16 md:p-20 text-center relative overflow-hidden min-h-[600px] flex flex-col items-center justify-center">
+          <h2 className="text-5xl md:text-6xl font-bold mb-6 text-slate-900 dark:text-white relative z-10">
             Start your Health Journey
             <br />
             with confidence
           </h2>
-          <p className="text-slate-700 dark:text-slate-300 mb-8 max-w-lg mx-auto relative z-10">
+          <p className="text-xl md:text-2xl text-slate-700 dark:text-slate-300 mb-10 max-w-3xl mx-auto relative z-10">
             Max Health Market connects you with America's most effective healthcare solutions. Smarter shopping. Lower costs. Better health.
           </p>
-          <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 h-12 font-semibold relative z-10">
-            Use Me As Health Finder
+          <Button className="bg-purple-600 hover:bg-purple-700 text-white px-10 h-14 font-semibold text-lg relative z-10 rounded-[60px]">
+            Use the AI Health Finder
           </Button>
 
           {/* Hero image at bottom */}
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-md h-64 overflow-hidden">
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-4xl h-96 overflow-hidden">
             <img
               src="https://s3-alpha-sig.figma.com/img/b96b/c646/3667901fd47b6a26b13b2d361b7f313e?Expires=1760313600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DMeWY4uc1pto4doTi8f0mYOROUd73i53Bb4-hD4WQ2JfB7tntuFWoQNsN5AGt~YQwuKu2-b3-BQY9OIMIr07u9SnV5VOUzGg-Dn508hf1pWExm6X7F2ZtQlhCyxNTXlB5d94hZbNzbe4VY1KH6dTlYk7OCbX6bHkzCTlb2unqAOYymb7sBbbf8AWlea3PpvSY1LP3aZxa8YpY2SHhkUHatpO28HS5f~MlbPFyrC9ZTzj4~oU~GukutOPKTFcd8jUr1qnUzkQ3iKerNXkuqOtCjCm-HqOLcU8X3hBuRfDfBviklBbXHLUalT2YxdZkcsLSceaBF62SxuooUJWrkNHzA__"
               alt="Health journey"
@@ -280,7 +294,7 @@ export default function Home() {
           </div>
 
           {/* Decorative gradient overlay */}
-          <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-purple-600 via-blue-500 to-transparent opacity-40 rounded-b-3xl pointer-events-none"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-purple-600 via-blue-500 to-transparent opacity-40 rounded-b-[40px] pointer-events-none"></div>
         </div>
       </section>
     </div>
